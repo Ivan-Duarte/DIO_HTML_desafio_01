@@ -1,394 +1,409 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="studie.ico" type="image/x-icon">
-    <title>Meu Site HTML</title>
-    <style>
-        body{
-            font-family: "Verdana", sans-serif;
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="studie.ico" type="image/x-icon">
+        <title>Meu Site HTML</title>
+        <style>
+            header{
+                align-content: center;
+                color: white;
+                background: linear-gradient(to bottom right, #ff6600, #a13b01);
+                display: grid;
+                place-items: center;
+                padding-top: 1rem;
+                padding-bottom: 2rem;
             }
-        .div_web {
-            background: linear-gradient(to bottom, #ff6600, #003366);
-            color: white;
-        }
-    </style>
-</head>
-<body>
-    <h1 style="margin-bottom: -1rem;">O que aprendi na DIO?</h1>
-    <p>
-        Um site feito para aplicar meu conhecimento em HTML basico
-    </p>
-
-    <h2 id="sec_indice" style="margin-bottom: -1rem;">Indice</h2>
-        <ol>
-            <li>
-                <a href="#sec_intro">
-                    Introdução
-                </a>
-            </li>
-            <li>
-                <a href="#sec_historia">
-                    História
-                </a>
-                <ul>
-                    <li><a href="#gen1">1ª Geração</a></li>
-                    <li><a href="#gen2">2ª Geração</a></li>
-                    <li><a href="#gen3">3ª Geração</a></li>
-                    <li><a href="#gen4">4ª Geração</a></li>
-                    <li><a href="#net">Início da Internet</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#sec_web_1">
-                    Web - 1
-                </a>
-            </li>
-        </ol>
+            body{
+                font-family: "Verdana", sans-serif;
+                }
+            .div_web {
+                background: linear-gradient(to bottom, #ff6600, #a13b01, #003366, #008cc8);
+                color: white;
+            }
+        </style>
+    </head>
+    <header>
+        <h1 style="margin-bottom: -1rem;">O que aprendi na DIO?</h1>
+        <p>
+            Um site feito para aplicar meu conhecimento em HTML basico
+        </p>
+    </header>
+    <body>
+        <div id="sec_indice">
+            <h2 style="margin-bottom: -1rem;">Indice</h2>
+            <ol>
+                <li>
+                    <a href="#sec_intro">
+                        Introdução
+                    </a>
+                </li>
+                <li>
+                    <a href="#sec_historia">
+                        História
+                    </a>
+                    <ul>
+                        <li><a href="#gen1">1ª Geração</a></li>
+                        <li><a href="#gen2">2ª Geração</a></li>
+                        <li><a href="#gen3">3ª Geração</a></li>
+                        <li><a href="#gen4">4ª Geração</a></li>
+                        <li><a href="#net">Início da Internet</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#sec_web_1">
+                        Web - 1
+                    </a>
+                </li>
+            </ol>
+        </div>
         <hr>
-    <div id="sec_intro">
-        <h2 style="margin-bottom: -1rem;">Introdução</h2>
-            <p><a href="#sec_indice">Voltar ↻</a></p>
-        <blockquote>
-            <i>"Esse site eu faço em dedicação aos meus estudos em HTML, atualmente em 2024 eu estou trabalhando em
-                alguns projetos no meu estágio, e também estou gerenciando equipes. Sinto que toda essa experiência
-                vai agregar muito para mim no momento de conseguir um novo emprego."
-                <p>
-                    — Ivan Germano Rosendo de Oliveira Duarte
-                </p>
-            </i>
-        </blockquote>
-    </div>    
-    <div id="sec_historia">
-        <h2 style="margin-bottom: -1rem;">História</h2>
-            <p><a href="#sec_indice">Voltar ↻</a></p>
-                <p>
-                    Durante o curso, foi esclarecido o contexto histórico do inicio da computação,
-                    o professor <u><strong>Diogo Mainardes</strong></u> explicou a evolução nas 
-                    gerações dos computadores bem como suas classificações listadas abaixo:
-                </p>
-                <ol>
-                    <li id="gen1">
-                        <h4 style="margin-bottom: -1rem;"><strong>1944</strong> até <strong>1959</strong></h4>
-                        <p><a href="#sec_indice">Voltar ↻</a></p>
-                        <strong>
-                            Caracteristicas:
-                        </strong>
-                        <ul style="color:red">
-                            <li>Usavam válvulas eletrônicas</li>
-                            <li>Eram lentos</li>
-                            <li>Possuiam muitos cabos</li>
-                            <li>Ocupavam salas inteiras</li>
-                            <li>Esquetavam muito</li>
-                        </ul>
-                        <blockquote>
+        <div id="sec_intro">
+            <h2 style="margin-bottom: -1rem;">Introdução</h2>
+                <p><a href="#sec_indice">Voltar ↻</a></p>
+            <blockquote>
+                <i>"Esse site eu faço em dedicação aos meus estudos em HTML, atualmente em 2024 eu estou trabalhando em
+                    alguns projetos no meu estágio, e também estou gerenciando equipes. Sinto que toda essa experiência
+                    vai agregar muito para mim no momento de conseguir um novo emprego."
+                    <p>
+                        — Ivan Germano Rosendo de Oliveira Duarte
+                    </p>
+                </i>
+            </blockquote>
+        <hr>
+        </div>    
+        <div id="sec_historia">
+            <h2 style="margin-bottom: -1rem;">História</h2>
+                <p><a href="#sec_indice">Voltar ↻</a></p>
+                    <p>
+                        Durante o curso, foi esclarecido o contexto histórico do inicio da computação,
+                        o professor <u><strong>Diogo Mainardes</strong></u> explicou a evolução nas 
+                        gerações dos computadores bem como suas classificações listadas abaixo:
+                    </p>
+                    <ol>
+                        <li id="gen1">
+                            <h4 style="margin-bottom: -1rem;"><strong>1944</strong> até <strong>1959</strong></h4>
+                            <p><a href="#sec_indice">Voltar ↻</a></p>
                             <strong>
-                                Foi nessa geração que o termo <mark>"BUG"</mark> surgiu.
+                                Caracteristicas:
                             </strong>
-                            <br>
-                                <i>
-                                    A razão por trás disso foi que os incetos entravam nos enormes 
-                                    computadores e eventualmente morriam<br> dentro deles ocasionando falhas nos componentes. 
-                                    Hoje em dia o termo é usando sempre que existe uma<br> falha ou quando alguma 
-                                    funcionalidade não funciona como esperado.
-                                </i>
-                        </blockquote>
-                        <table>
-                            <tr>
-                                <td>
-                                    <img 
-                                        src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/26776_1798DEE935286D54.jpg?w=1024"
-                                        width="450px" 
-                                        height="300px"
-                                        style="border: 2px solid black"
-                                        title="Mulheres trabalhando em componentes do Eniac"
-                                    > 
-                                </td>
-                                <td>
-                                    <img 
-                                        src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Two_women_operating_ENIAC.gif"
-                                        width="450px" 
-                                        height="300px"
-                                        style="border: 2px solid black"
-                                        title="Seções do Eniac"
-                                    > 
-                                </td>
-                                <td>
-                                    <img 
-                                        src="https://cdn.britannica.com/95/170195-050-EFCB2F83/ENIAC-1946.jpg"
-                                        width="450px" 
-                                        height="300px"
-                                        style="border: 2px solid black"
-                                        title="Sala de operação do Eniac"
-                                    > 
-                                </td>
-                            </tr>
-                        </table>         
-                    </li>
-                    <br>
-                    <hr>
-                    <li id="gen2">
-                        <h4 style="margin-bottom: -1rem;"><strong>1959</strong> até <strong>1964</strong></h4>
-                        <p><a href="#sec_indice">Voltar ↻</a></p>
-                        <strong>
-                            Caracteristicas:
-                        </strong>
-                        <ul style="color:red">
-                            <li>Usavam transistores</li>
-                            <li>Possuiam circuitos impressos</li>
-                            <li>Eram mais rapidos</li>
-                            <li>Tinham o custo mais baixo</li>
-                        </ul>
-                        <blockquote>
+                            <ul style="color:red">
+                                <li>Usavam válvulas eletrônicas</li>
+                                <li>Eram lentos</li>
+                                <li>Possuiam muitos cabos</li>
+                                <li>Ocupavam salas inteiras</li>
+                                <li>Esquetavam muito</li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Foi nessa geração que o termo <mark>"BUG"</mark> surgiu.
+                                </strong>
+                                <br>
+                                    <i>
+                                        A razão por trás disso foi que os incetos entravam nos enormes 
+                                        computadores e eventualmente morriam<br> dentro deles ocasionando falhas nos componentes. 
+                                        Hoje em dia o termo é usando sempre que existe uma<br> falha ou quando alguma 
+                                        funcionalidade não funciona como esperado.
+                                    </i>
+                            </blockquote>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img 
+                                            src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/26776_1798DEE935286D54.jpg?w=1024"
+                                            width="450px" 
+                                            height="300px"
+                                            style="border: 2px solid black"
+                                            title="Mulheres trabalhando em componentes do Eniac"
+                                        > 
+                                    </td>
+                                    <td>
+                                        <img 
+                                            src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Two_women_operating_ENIAC.gif"
+                                            width="450px" 
+                                            height="300px"
+                                            style="border: 2px solid black"
+                                            title="Seções do Eniac"
+                                        > 
+                                    </td>
+                                    <td>
+                                        <img 
+                                            src="https://cdn.britannica.com/95/170195-050-EFCB2F83/ENIAC-1946.jpg"
+                                            width="450px" 
+                                            height="300px"
+                                            style="border: 2px solid black"
+                                            title="Sala de operação do Eniac"
+                                        > 
+                                    </td>
+                                </tr>
+                            </table>         
+                        </li>
+                        <br>
+                        <hr>
+                        <li id="gen2">
+                            <h4 style="margin-bottom: -1rem;"><strong>1959</strong> até <strong>1964</strong></h4>
+                            <p><a href="#sec_indice">Voltar ↻</a></p>
                             <strong>
-                                Essa geração foi caracterisada pelos <mark>TRANSISTORES</mark>.
+                                Caracteristicas:
                             </strong>
-                            <br>
-                                <i>
-                                    TRANSÍSTORES (1955-1965)  - Foi inventada em 1948 no Bell Labs por John Bardeen,Walter Brattain e
-                                    William Shockle<br> os quais receberam o Prémio Nobel da Física em 1956. Esta geração de computadores caracteriza-se 
-                                    pela diminuição dos<br> tamanhos das máquinas e componentes,diminuição de custos de produção,diminuição do consumo 
-                                    energético e também<br> diminuição do numero de falhas e de calor dissipado.
-                                </i>
-                        </blockquote>
-                        <table>
-                            <tr>
-                                <td>
-                                    <img 
-                                        src="https://historiadainformatica2013.weebly.com/uploads/2/4/4/7/24470693/4656358_orig.jpg"
-                                        width="450px" 
-                                        height="300px"
-                                        style="border: 2px solid black"
-                                        title="Homens trabalhando no TRADIC (1955)"
-                                    > 
-                                </td>
-                                <td>
-                                    <img 
-                                        src="http://historiadainformatica2013.weebly.com/uploads/2/4/4/7/24470693/2161387.jpg?428"
-                                        width="450px" 
-                                        height="300px"
-                                        style="border: 2px solid black"
-                                        title="IBM 7094 (1959)"
-                                    > 
-                                </td>
-                                <td>
-                                    <img 
-                                        src="http://historiadainformatica2013.weebly.com/uploads/2/4/4/7/24470693/7059895.jpg?428"
-                                        width="450px" 
-                                        height="300px"
-                                        style="border: 2px solid black"
-                                        title="CDC 6600 (1964)"
-                                    > 
-                                </td>
-                            </tr>
-                        </table>         
-                    </li>
-                    <br>
-                    <hr>
-                    <li id="gen3">
-                        <h4 style="margin-bottom: -1rem;"><strong>1964</strong> até <strong>1970</strong></h4>
-                        <p><a href="#sec_indice">Voltar ↻</a></p>
-                        <strong>
-                            Caracteristicas:
-                        </strong>
-                        <ul style="color:red">
-                            <li>Possuiam circuitos integrados</li>
-                            <li>Redução de custos</li>
-                            <li>Processamento em microsegundos</li>
-                            <li>Início dos sistemas operacionais</li>
-                        </ul>
-                        <blockquote>
+                            <ul style="color:red">
+                                <li>Usavam transistores</li>
+                                <li>Possuiam circuitos impressos</li>
+                                <li>Eram mais rapidos</li>
+                                <li>Tinham o custo mais baixo</li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Essa geração foi caracterisada pelos <mark>TRANSISTORES</mark>.
+                                </strong>
+                                <br>
+                                    <i>
+                                        TRANSÍSTORES (1955-1965)  - Foi inventada em 1948 no Bell Labs por John Bardeen,Walter Brattain e
+                                        William Shockle<br> os quais receberam o Prémio Nobel da Física em 1956. Esta geração de computadores caracteriza-se 
+                                        pela diminuição dos<br> tamanhos das máquinas e componentes,diminuição de custos de produção,diminuição do consumo 
+                                        energético e também<br> diminuição do numero de falhas e de calor dissipado.
+                                    </i>
+                            </blockquote>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img 
+                                            src="https://historiadainformatica2013.weebly.com/uploads/2/4/4/7/24470693/4656358_orig.jpg"
+                                            width="450px" 
+                                            height="300px"
+                                            style="border: 2px solid black"
+                                            title="Homens trabalhando no TRADIC (1955)"
+                                        > 
+                                    </td>
+                                    <td>
+                                        <img 
+                                            src="http://historiadainformatica2013.weebly.com/uploads/2/4/4/7/24470693/2161387.jpg?428"
+                                            width="450px" 
+                                            height="300px"
+                                            style="border: 2px solid black"
+                                            title="IBM 7094 (1959)"
+                                        > 
+                                    </td>
+                                    <td>
+                                        <img 
+                                            src="http://historiadainformatica2013.weebly.com/uploads/2/4/4/7/24470693/7059895.jpg?428"
+                                            width="450px" 
+                                            height="300px"
+                                            style="border: 2px solid black"
+                                            title="CDC 6600 (1964)"
+                                        > 
+                                    </td>
+                                </tr>
+                            </table>         
+                        </li>
+                        <br>
+                        <hr>
+                        <li id="gen3">
+                            <h4 style="margin-bottom: -1rem;"><strong>1964</strong> até <strong>1970</strong></h4>
+                            <p><a href="#sec_indice">Voltar ↻</a></p>
                             <strong>
-                                Essa geração foi caracterisada pelos <mark>CIRCUITOS INTEGRADOS</mark>.
+                                Caracteristicas:
                             </strong>
-                            <br>
-                                <i>
-                                    Os transístores e outros componentes eletrônicos tornam-se miniaturizados e 
-                                    fabricados em um <br> único chip, ocasionando em uma diminuição de preço. Alguns dos primeiros 
-                                    modelos desta geração foram o B-2500, B-3500, B-3600, IBM 360.
-                                </i>
-                        </blockquote>
-                        <table>
-                            <tr>
-                                <td>
-                                    <img 
-                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/80486dx2-large.jpg/230px-80486dx2-large.jpg"
-                                        width="450px" 
-                                        height="300"
-                                        style="border: 2px solid black"
-                                        title="Microprocessador Intel 80486DX2"
-                                    > 
-                                </td>
-                                <td>
-                                    <img 
-                                        src="https://histricoeevolucaodoscomputadores.files.wordpress.com/2016/09/3-2.jpg"
-                                        width="450px" 
-                                        height="300"
-                                        style="border: 2px solid black"
-                                        title="Pessoas trabalhando com fita magnética."
-                                    > 
-                                </td>
-                                <td>
-                                    <img 
-                                        src="http://historiadainformatica2013.weebly.com/uploads/2/4/4/7/24470693/5372418_orig.jpg"
-                                        width="450px" 
-                                        height="300"
-                                        style="border: 2px solid black"
-                                        title="Altair 8800  (1975)"
-                                    > 
-                                </td>
-                            </tr>
-                        </table>         
-                    </li>
-                    <br>
-                    <hr>
-                    <li id="gen4">
-                        <h4 style="margin-bottom: -1rem;"><strong>1970</strong> até <strong>Hoje</strong></h4>
-                        <p><a href="#sec_indice">Voltar ↻</a></p>
-                        <strong>
-                            Caracteristicas:
-                        </strong>
-                        <ul style="color:red">
-                            <li>Possuem microprocessadores</li>
-                            <li>Ultra processamento de dados</li>
-                            <li>Menor custo maior velocidade</li>
-                            <li>Computadores pessoais (PCs)</li>
-                            <li>Sistemas operacionais avançados</li>
-                        </ul>
-                        <blockquote>
+                            <ul style="color:red">
+                                <li>Possuiam circuitos integrados</li>
+                                <li>Redução de custos</li>
+                                <li>Processamento em microsegundos</li>
+                                <li>Início dos sistemas operacionais</li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Essa geração foi caracterisada pelos <mark>CIRCUITOS INTEGRADOS</mark>.
+                                </strong>
+                                <br>
+                                    <i>
+                                        Os transístores e outros componentes eletrônicos tornam-se miniaturizados e 
+                                        fabricados em um <br> único chip, ocasionando em uma diminuição de preço. Alguns dos primeiros 
+                                        modelos desta geração foram o B-2500, B-3500, B-3600, IBM 360.
+                                    </i>
+                            </blockquote>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img 
+                                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/80486dx2-large.jpg/230px-80486dx2-large.jpg"
+                                            width="450px" 
+                                            height="300"
+                                            style="border: 2px solid black"
+                                            title="Microprocessador Intel 80486DX2"
+                                        > 
+                                    </td>
+                                    <td>
+                                        <img 
+                                            src="https://histricoeevolucaodoscomputadores.files.wordpress.com/2016/09/3-2.jpg"
+                                            width="450px" 
+                                            height="300"
+                                            style="border: 2px solid black"
+                                            title="Pessoas trabalhando com fita magnética."
+                                        > 
+                                    </td>
+                                    <td>
+                                        <img 
+                                            src="http://historiadainformatica2013.weebly.com/uploads/2/4/4/7/24470693/5372418_orig.jpg"
+                                            width="450px" 
+                                            height="300"
+                                            style="border: 2px solid black"
+                                            title="Altair 8800  (1975)"
+                                        > 
+                                    </td>
+                                </tr>
+                            </table>         
+                        </li>
+                        <br>
+                        <hr>
+                        <li id="gen4">
+                            <h4 style="margin-bottom: -1rem;"><strong>1970</strong> até <strong>Hoje</strong></h4>
+                            <p><a href="#sec_indice">Voltar ↻</a></p>
                             <strong>
-                                Essa geração foi caracterisada pelos <mark>MICRO-PROCESSADORES</mark>.
+                                Caracteristicas:
                             </strong>
-                            <br>
-                                <i>
-                                    A introdução dos micro-processadores e do desenvolvimento e generalização dos computadores pessoais destaca essa geração atual. 
-                                    <br>Além disso é introduzida a microprogramaçao bem como  a VLSI - Very Large Scale Integration bem como a introduçao<br> 
-                                    dos denominados Sistemas Operativos (MS-DOS,Windows e Unix).
-                                </i>
-                        </blockquote>
-                        <table>
-                            <tr>
-                                <td>
-                                    <img 
-                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Cpu.jpg/800px-Cpu.jpg"
-                                        width="450px" 
-                                        height="300"
-                                        style="border: 2px solid black"
-                                        title="Intel CPU"
-                                    > 
-                                </td>
-                                <td>
-                                    <img 
-                                        src="http://historiadainformatica2013.weebly.com/uploads/2/4/4/7/24470693/532635_orig.jpg"
-                                        width="450px" 
-                                        height="300"
-                                        style="border: 2px solid black"
-                                        title="IBM PC (Personal Computer) (1981)"
-                                    > 
-                                </td>
-                                <td>
-                                    <img 
-                                        src="http://historiadainformatica2013.weebly.com/uploads/2/4/4/7/24470693/6251901.gif?432"
-                                        width="450px" 
-                                        height="300"
-                                        style="border: 2px solid black"
-                                        title="Macintosh (1984)"
-                                    > 
-                                </td>
-                            </tr>
-                        </table>         
-                    </li>
-                    <br>
+                            <ul style="color:red">
+                                <li>Possuem microprocessadores</li>
+                                <li>Ultra processamento de dados</li>
+                                <li>Menor custo maior velocidade</li>
+                                <li>Computadores pessoais (PCs)</li>
+                                <li>Sistemas operacionais avançados</li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Essa geração foi caracterisada pelos <mark>MICRO-PROCESSADORES</mark>.
+                                </strong>
+                                <br>
+                                    <i>
+                                        A introdução dos micro-processadores e do desenvolvimento e generalização dos computadores pessoais destaca essa geração atual. 
+                                        <br>Além disso é introduzida a microprogramaçao bem como  a VLSI - Very Large Scale Integration bem como a introduçao<br> 
+                                        dos denominados Sistemas Operativos (MS-DOS,Windows e Unix).
+                                    </i>
+                            </blockquote>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img 
+                                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Cpu.jpg/800px-Cpu.jpg"
+                                            width="450px" 
+                                            height="300"
+                                            style="border: 2px solid black"
+                                            title="Intel CPU"
+                                        > 
+                                    </td>
+                                    <td>
+                                        <img 
+                                            src="http://historiadainformatica2013.weebly.com/uploads/2/4/4/7/24470693/532635_orig.jpg"
+                                            width="450px" 
+                                            height="300"
+                                            style="border: 2px solid black"
+                                            title="IBM PC (Personal Computer) (1981)"
+                                        > 
+                                    </td>
+                                    <td>
+                                        <img 
+                                            src="http://historiadainformatica2013.weebly.com/uploads/2/4/4/7/24470693/6251901.gif?432"
+                                            width="450px" 
+                                            height="300"
+                                            style="border: 2px solid black"
+                                            title="Macintosh (1984)"
+                                        > 
+                                    </td>
+                                </tr>
+                            </table>         
+                        </li>
+                        <br>
+                        <hr>
+                        <li id="net">
+                            <h4 style="margin-bottom: -1rem;">Início da Internet</h4>
+                            <p><a href="#sec_indice">Voltar ↻</a></p>
+                            <table>
+                                <tr>
+                                    <td height="50px">
+                                        <h2>A MOTIVAÇÃO</h2>
+                                        <h5>
+                                            <p>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A internet surgiu a partir de pesquisas militares no auge da Guerra Fria. Neste contexto, em que os dois blocos ideológicos e politicamente antagônicos exerciam enorme controle e influência no mundo, qualquer mecanismo, qualquer inovação, qualquer ferramenta nova poderia contribuir nessa disputa liderada pela União Soviética e pelos Estados Unidos<br>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As duas superpotências compreendiam a eficácia e a necessidade absoluta dos meios de comunicação. Nessa perspectiva, o governo dos Estados Unidos temia um ataque russo às bases militares. Um ataque poderia trazer a público informações sigilosas, tornando os EUA vulneráveis. Então foi idealizado um modelo de troca e compartilhamento de informações que permitisse a descentralização das mesmas. Assim, se o Pentágono fosse atingido, as informações armazenadas ali não estariam perdidas. Era preciso, portanto, criar uma rede, a <a href="https://pt.wikipedia.org/wiki/ARPANET" target="_blank" title="Veja no Wikipedia">ARPANET</a>, criada pela ARPA, sigla para Advanced Research Projects Agency.
+                                            </p>
+                                        </h5>
+                                        <h6>
+                                            <i><p>A ARPANET funcionava através de um sistema conhecido como chaveamento de pacotes, que é um sistema de transmissão de dados em rede de computadores no qual as informações são divididas em pequenos pacotes, que por sua vez contém trecho dos dados, o endereço do destinatário e informações que permitiam a remontagem da mensagem original. O ataque inimigo nunca aconteceu, mas o que o Departamento de Defesa dos Estados Unidos não sabia era que dava início ao maior fenômeno midiático do século XX', único meio de comunicação que em apenas 4 anos conseguiria atingir cerca de 50 milhões de pessoas.</p></i>
+                                        </h6>                 
+                                    </td>
+                                    <td height="450px" width="600px">
+                                        <img 
+                                            src="https://img.olhardigital.com.br/wp-content/uploads/2021/10/arpa.jpeg"
+                                            width="100%" 
+                                            height="100%"
+                                            style="border: 2px solid black"
+                                            title="Primeiras ligações da ARPANET"
+                                        > 
+                                    </td>
+                                </tr>
+                            </table>         
+                        </li>
+                        <br>
+                    </ol>
                     <hr>
-                    <li id="net">
-                        <h4 style="margin-bottom: -1rem;">Início da Internet</h4>
-                        <p><a href="#sec_indice">Voltar ↻</a></p>
-                        <table>
-                            <tr>
-                                <td height="50px">
-                                    <h2>A MOTIVAÇÃO</h2>
-                                    <h5>
-                                        <p>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A internet surgiu a partir de pesquisas militares no auge da Guerra Fria. Neste contexto, em que os dois blocos ideológicos e politicamente antagônicos exerciam enorme controle e influência no mundo, qualquer mecanismo, qualquer inovação, qualquer ferramenta nova poderia contribuir nessa disputa liderada pela União Soviética e pelos Estados Unidos<br>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As duas superpotências compreendiam a eficácia e a necessidade absoluta dos meios de comunicação. Nessa perspectiva, o governo dos Estados Unidos temia um ataque russo às bases militares. Um ataque poderia trazer a público informações sigilosas, tornando os EUA vulneráveis. Então foi idealizado um modelo de troca e compartilhamento de informações que permitisse a descentralização das mesmas. Assim, se o Pentágono fosse atingido, as informações armazenadas ali não estariam perdidas. Era preciso, portanto, criar uma rede, a <a href="https://pt.wikipedia.org/wiki/ARPANET" target="_blank" title="Veja no Wikipedia">ARPANET</a>, criada pela ARPA, sigla para Advanced Research Projects Agency.
-                                        </p>
-                                    </h5>
-                                    <h6>
-                                        <i><p>A ARPANET funcionava através de um sistema conhecido como chaveamento de pacotes, que é um sistema de transmissão de dados em rede de computadores no qual as informações são divididas em pequenos pacotes, que por sua vez contém trecho dos dados, o endereço do destinatário e informações que permitiam a remontagem da mensagem original. O ataque inimigo nunca aconteceu, mas o que o Departamento de Defesa dos Estados Unidos não sabia era que dava início ao maior fenômeno midiático do século XX', único meio de comunicação que em apenas 4 anos conseguiria atingir cerca de 50 milhões de pessoas.</p></i>
-                                    </h6>                 
-                                </td>
-                                <td height="450px" width="600px">
-                                    <img 
-                                        src="https://img.olhardigital.com.br/wp-content/uploads/2021/10/arpa.jpeg"
-                                        width="100%" 
-                                        height="100%"
-                                        style="border: 2px solid black"
-                                        title="IBM PC (Personal Computer) (1981)"
-                                    > 
-                                </td>
-                            </tr>
-                        </table>         
-                    </li>
-                    <br>
-                </ol>
-                <hr>
-    </div>
-    <div id="sec_web_1" class="div_web"> 
-            <div 
+        </div>
+        <div id="sec_web_1" class="div_web"> 
+            <div
                 style="text-align: center;
                 display: grid;
                 place-items: center;"
             >
                 <h2 style="margin-bottom: -1rem;">Linguajar "Web"</h2>
                 <p><a href="#sec_indice">Voltar ↻</a></p>
-                <blockquote style="width: 50%;">
-                    "Linguajar Web" em uma frase pode se referir à linguagem específica, terminologia ou estilo de comunicação associado ao desenvolvimento web, design de sites ou interações online.<br><br><strong>EXEMPLO</strong><br>
-                    "O profissional de TI explicou o problema de maneira clara, utilizando o linguajar web adequado para facilitar a compreensão do cliente."
-                </blockquote>
+                <blockquote style="width: 50%; margin-top: -0.5rem;">
+                "Linguajar Web" em uma frase pode se referir à linguagem específica, terminologia ou estilo de comunicação associado ao desenvolvimento web, design de sites ou interações online.<br><br><strong>EXEMPLO</strong><br>
+                <i>"O profissional de TI explicou o problema de maneira clara, utilizando o linguajar web adequado para facilitar a compreensão do cliente."</i>
+                    </blockquote>
             </div>
-            
-            <table style="padding-left: 15%; padding-right: 15%;">
-                <tr>
-                    <td height="250px" width="350px" style="padding-top: 5%;">
-                        <img 
-                            src="https://www.nosolopymes.com/imagenes/Cinco-tipos-de-clientes-online.png"
-                            width="100%" 
-                            height="100%"
-                            style="border: 2px solid white; border-radius: 15%;"
-                            title="IBM PC (Personal Computer) (1981)"
-                        > 
-                    </td>
-                    <td height="50px" style="padding-left: 5%;">
-                        <h2>Cliente</h2>
-                        <p>No contexto web o cliente pode ter sentidos diferentes, ele pode ser:</p>
-                        <ol>
-                            <li style="padding-bottom: 2%;">
-                                <strong>Cliente (Client):</strong><br>
-                                O "cliente" é a parte da arquitetura cliente-servidor que geralmente se refere ao lado do usuário em uma aplicação web. Ele executa em um navegador da web e interage diretamente com os usuários.
-                                No contexto da web, o cliente é responsável por solicitar recursos, como páginas HTML, CSS, scripts e imagens, a partir de um servidor web. Ele processa esses recursos e os exibe para os usuários.
-                            </li>
-                            <li style="padding-bottom: 2%;">
-                                <strong>Navegador (Browser):</strong><br>
-                                O navegador da web (como Chrome, Firefox, Safari, etc.) é um tipo comum de cliente na web. Ele é a interface que os usuários utilizam para acessar e interagir com aplicativos e sites.
-                            </li>
-                        </ol>               
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Teste 1
-                    </td>
-                    <td>
-                        Teste 2
-                    </td>
-                </tr>
-            </table>         
-        </li>
-        <br>
-        <hr>
-    </div>
-    
-            
-</body>
+            <div style="display: grid; place-items: center;">
+                <table style="width: 70%;">
+                    <tr>
+                        <td height="250px" width="400px" style="padding-top: 2rem;">
+                            <img 
+                                src="https://www.nosolopymes.com/imagenes/Cinco-tipos-de-clientes-online.png"
+                                width="100%" 
+                                height="100%"
+                                style="border: 2px solid white; border-radius: 15%;"
+                            > 
+                        </td>
+                        <td style="padding-left: 5%;">
+                            <h2>Cliente</h2>
+                            <p>No contexto web o cliente pode ter sentidos diferentes, ele pode ser:</p>
+                            <ol>
+                                <li style="padding-bottom: 2%;">
+                                    <strong>Cliente (Client):</strong><br>
+                                    O "cliente" é a parte da arquitetura cliente-servidor que geralmente se refere ao lado do usuário em uma aplicação web. Ele executa em um navegador da web e interage diretamente com os usuários.
+                                    No contexto da web, o cliente é responsável por solicitar recursos, como páginas HTML, CSS, scripts e imagens, a partir de um servidor web. Ele processa esses recursos e os exibe para os usuários.
+                                </li>
+                                <li style="padding-bottom: 2%;">
+                                    <strong>Navegador (Browser):</strong><br>
+                                    O navegador da web (como Chrome, Firefox, Safari, etc.) é um tipo comum de cliente na web. Ele é a interface que os usuários utilizam para acessar e interagir com aplicativos e sites.
+                                </li>
+                            </ol>               
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <hr style="width: 80%;">
+            <div style="display: grid; place-items: center;">
+                <h1 style="margin-top: 2rem; margin-bottom: -4rem;">APLICAÇÃO WEB</h1>
+                <img 
+                    src="https://appscriacaodeaplicativos.com.br/blog/wp-content/uploads/2017/12/O-que-%C3%A9-um-App.png"
+                    width="50%" 
+                    height="80%"
+                    style="border: 2px solid white; border-radius: 5%; margin-bottom: -5rem;"
+                >
+                <div>
+                    <p>
+                        Uma aplicação web, ou simplesmente "web app", é um software que é acessado e utilizado por meio de um navegador web. Diferentemente de aplicativos tradicionais que precisam ser instalados localmente em um dispositivo, as aplicações web são executadas em servidores e os usuários as acessam através de um navegador, como o Google Chrome, Mozilla Firefox, Safari ou Microsoft Edge.
+                    </p>
+                </div>
+            </div>           
+        </div>         
+    </body>
 </html>
