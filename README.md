@@ -12,6 +12,11 @@ O projeto consiste em uma estrutura HTML básica que inclui:
 - **Conceitos em HTML** Boas práticas como o uso correto da tag "**div**" para separar as seções.
 - **Utilziação de CSS interno** Atributos CSS de Style dentro das tags e em classes fora o body.
 
+## Como Usar ⚙
+1. Clone este repositório em sua máquina local:
+```bash
+git clone "https://github.com/Ivan-Duarte/DIO_HTML_desafio_01.git"
+```
 ## Captura de Tela 1
 <img src="https://github.com/Ivan-Duarte/DIO_HTML_desafio_01/blob/main/cap_pag_01.PNG" width=90% height=400 align="middle">
 <br>
@@ -23,7 +28,3 @@ O projeto consiste em uma estrutura HTML básica que inclui:
 ### Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) ou enviar pull requests para melhorar este projeto.
 Have Fun Coding! 🎯
-## Como Usar
-1. Clone este repositório em sua máquina local:
-```bash
-git clone "https://github.com/Ivan-Duarte/DIO_HTML_desafio_01.git"
